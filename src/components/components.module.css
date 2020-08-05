@@ -1,0 +1,43 @@
+:root {
+  --main-header-color: #eee;
+}
+.mainContent {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mouse {
+  width: 50px;
+  height: 90px;
+  border: 3px solid #eee;
+  border-radius: 30px;
+  z-index: 99;
+  position: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.mouseCircle {
+  width: 12.5px;
+  height: 12.5px;
+  margin-left: 18px;
+  margin-top: 15px;
+  background: #eee;
+  border-radius: 50%;
+  opacity: 1;
+  animation: mouse 1s infinite;
+}
+
+
+@keyframes mouse {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    top: 75px;
+  }
+}

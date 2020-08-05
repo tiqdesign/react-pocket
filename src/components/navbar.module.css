@@ -1,0 +1,49 @@
+.navContainer {
+  z-index: 99;
+  background-color: rgba(255, 255,255, 0.2);
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.navbar {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.navbarList {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.navbarLogo {
+cursor: pointer;
+  display: flex;
+  align-self: center;
+  margin: 20px;
+  height: 50%;
+}
+
+.navbarListItem {
+  
+  display: block;
+  margin: 20px;
+}
+
+.navbarListItemLink {
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  padding: 0px 24px;
+}

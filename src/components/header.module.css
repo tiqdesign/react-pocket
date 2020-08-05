@@ -1,0 +1,14 @@
+
+.header {
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--main-header-color);
+    text-align: center;
+  }
+  
+  .headerContainer {
+    z-index: 99;
+    padding-bottom: 20px;
+    display: flex;
+    align-self: center;
+  }

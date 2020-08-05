@@ -1,0 +1,35 @@
+:root {
+    --main-header-color: #eee;
+  }
+
+  body::-webkit-scrollbar{
+      display: none;
+  }
+
+.homeContainer{
+    background: url(../assets/bg.jpg) no-repeat bottom;
+    background-size: cover;
+    min-height: 100vh;
+    z-index: 0;
+}
+
+.homeContainer::before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    background: #111;
+    z-index: 1;
+}
+
+.mainContent{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,0 +1,22 @@
+:root {
+  --main-header-color: #eee;
+}
+
+.discoverContainer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  background-color: #ead032;
+  min-height: 300px;
+  padding: 20px;
+  margin: auto;
+  
+}
+
+.discoverContainerContent{
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
